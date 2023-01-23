@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Database">
+      <UniqueIdentifier>{9e99238d-29cd-45a6-b245-ce5adca4f1cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataFormat">
+      <UniqueIdentifier>{dea05e41-b6ac-4283-98e7-73b77a4783cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AddressBook">
+      <UniqueIdentifier>{20d99add-ee0d-446d-91cc-0d8be4923ed6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddressBookMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddressBook\AddressBook.cpp">
+      <Filter>Source Files\AddressBook</Filter>
+    </ClCompile>
+    <ClCompile Include="AddressBook\AddressBookApp.cpp">
+      <Filter>Source Files\AddressBook</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Database\Database.h">
+      <Filter>Source Files\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFormat\DataFormat.h">
+      <Filter>Source Files\DataFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\FileDatabase.h">
+      <Filter>Source Files\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFormat\JsonDataFormat.h">
+      <Filter>Source Files\DataFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFormat\Serializer.h">
+      <Filter>Source Files\DataFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFormat\JsonSerializer.h">
+      <Filter>Source Files\DataFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="AddressBook\AddressBook.h">
+      <Filter>Source Files\AddressBook</Filter>
+    </ClInclude>
+    <ClInclude Include="AddressBook\AddressBookThreadSafe.h">
+      <Filter>Source Files\AddressBook</Filter>
+    </ClInclude>
+    <ClInclude Include="AddressBook\Contact.h">
+      <Filter>Source Files\AddressBook</Filter>
+    </ClInclude>
+    <ClInclude Include="AddressBook\AddressBookApp.h">
+      <Filter>Source Files\AddressBook</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
